@@ -1,0 +1,27 @@
+{
+    "users": [
+        {
+            "username": "first",
+            "password": "gAAAAABozENZlt18HNLNUX-0Fma5rP0Cw8hLvV0pjFcKTrS0UPIupcHW4MALlMaOseDUjZNY1f1QcO_AeVKbDQAYK85bOgOgKA==",
+            "balance": 51.0,
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 1.0
+                },
+                {
+                    "type": "deposit",
+                    "amount": 54.0
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 2.0
+                },
+                {
+                    "type": "withdraw",
+                    "amount": 2.0
+                }
+            ]
+        }
+    ]
+}
