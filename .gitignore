@@ -1,0 +1,55 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Database / Data files (agar JSON ya sqlite use ho raha ho)
+*.db
+*.sqlite3
+*.sqlite
+/databases/*.json
+
+# Environment variables
+*.env
+.env.*
+
+# FastAPI specific
+*.pid
+uvicorn.log
