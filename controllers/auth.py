@@ -19,7 +19,7 @@ def register(req : RegisterUser ):
         db["users"].append({
             "username": req.username,
             "password": get_password_hash(req.password),
-            "balance": 0,
+            "balance": req.balance,
             "transactions": []
         })
         save_db(db)

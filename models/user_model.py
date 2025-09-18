@@ -8,7 +8,7 @@ class LoginUser(BaseModel):
 class RegisterUser(BaseModel):
     username: str
     password: str
-    balance: float = 0.0
+    balance: float
     transactions: list = []
 
 class Token(BaseModel):
